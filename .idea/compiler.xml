@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="commandSide" />
+        <module name="common" />
+        <module name="configService" />
+        <module name="discoveryService" />
+        <module name="proxyService" />
+        <module name="querySide" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="command" target="1.8" />
+      <module name="commandSide" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="configService" target="1.8" />
+      <module name="discoveryService" target="1.8" />
+      <module name="proxyService" target="1.8" />
+      <module name="query" target="1.8" />
+      <module name="querySide" target="1.8" />
+      <module name="solomon" target="1.8" />
+      <module name="teachingClass" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
