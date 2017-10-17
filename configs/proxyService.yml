@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: proxyService
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${config.host:127.0.0.1}:1111/eureka/
+
+zuul:
+  ignoredServices: '*'
+  routes:
+    teachingClass_command_path:
+      path: /command/**
+      stripPrefix: false
+      serviceId: teachingClass-commandService
+    teachingClass_query_path:
+      serviceId: teachingClass-queryService
+      path: /query/**
+      stripPrefix: false

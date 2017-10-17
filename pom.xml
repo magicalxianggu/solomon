@@ -24,7 +24,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <axon.version>3.0.4</axon.version>
+        <axon.version>3.0.5</axon.version>
         <slf4j.version>1.7.23</slf4j.version>
         <logback.version>1.2.1</logback.version>
         <springframework.version>4.3.4.RELEASE</springframework.version>
@@ -97,11 +97,11 @@
                 <artifactId>axon-amqp</artifactId>
                 <version>${axon.version}</version>
             </dependency>
-            <!--<dependency>
+            <dependency>
                 <groupId>org.axonframework</groupId>
                 <artifactId>axon-mongo</artifactId>
                 <version>${axon.version}</version>
-            </dependency>-->
+            </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
@@ -130,7 +130,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Camden.SR6</version>
+                <version>Dalston.SR4</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

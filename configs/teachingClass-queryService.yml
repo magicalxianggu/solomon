@@ -1,0 +1,48 @@
+spring:
+  application:
+    name: teachingClass-queryService
+  datasource:
+      url: jdbc:mysql://127.0.0.1:3306/db_magical
+      driverClassName: com.mysql.jdbc.Driver
+      username: root
+      password: a1b2c3d4
+      validation-query: SELECT 1;
+      initial-size: 2
+      sql-script-encoding: UTF-8
+  jpa:
+    show-sql: true
+    hibernate.ddl-auto: update
+  # mq for event bus
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: axon
+    password: axon
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: axon
+
+# Discovery Server Access
+eureka:
+  instance:
+    prefer-ip-address: false
+  client:
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://${config.host:127.0.0.1}:1111/eureka/
+
+server:
+  port: 8083 #HTTP(Tomcat) port
+
+# enable spring cloud support of Axon
+axon:
+  distributed:
+    enabled: true
+  #  jgroups:
+  #    enabled: false
+  #    gossip:
+  #      autoStart: false
+  amqp:
+      exchange: amq.fanout
