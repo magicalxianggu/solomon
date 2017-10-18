@@ -13,7 +13,7 @@ public class CreateTeachingClassCommand {
     @TargetAggregateIdentifier
     private TeachingClassID teachingClassID;
 
-    //上课教员信息。k:"courseID",v:教员ID；k:"courseType",v:课程类型；k:"courseNature",V:课程性质
+    //上课教员信息。k:"courseID",v:课程ID；k:"courseType",v:课程类型；k:"courseNature",V:课程性质
     private Map<String,String>  courseInfo;
 
     //学时时间段（学期）

@@ -46,11 +46,3 @@ axon:
   #      autoStart: false
   amqp:
     exchange: amq.fanout
-  eventhandling:
-    processors:
-      ordersaga:
-        source: queueMessageSource
-      orderservice:
-        source: queueMessageSource
-      order:
-        source: queueMessageSource

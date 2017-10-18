@@ -1,11 +1,10 @@
 package com.magical.jwgl.config;
 
 import org.slf4j.Logger;
-import org.springframework.amqp.core.*;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
+import org.springframework.amqp.core.*;
 import static org.slf4j.LoggerFactory.getLogger;
 
 /**
@@ -27,7 +26,7 @@ public class AMQPConfiguration {
 
     @Bean
     public Queue queue(){
-        return new Queue("teachingclassqueue", true);
+        return new Queue("productqueue", true);
     }
 
     @Bean
