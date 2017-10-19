@@ -6,11 +6,9 @@
     <file url="file://$PROJECT_DIR$/configService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/discoveryService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/proxyService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/teachingClass" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/teachingClass" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/teachingClass/command" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/teachingClass/commandSide" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/teachingClass/query" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/teachingClass/querySide" charset="UTF-8" />
   </component>
 </project>

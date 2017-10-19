@@ -9,6 +9,7 @@
         <module>proxyService</module>
         <module>common</module>
         <module>teachingClass</module>
+        <module>student</module>
     </modules>
 
     <parent>

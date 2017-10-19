@@ -12,6 +12,7 @@
         <module name="discoveryService" />
         <module name="proxyService" />
         <module name="querySide" />
+        <module name="student" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
       <module name="query" target="1.8" />
       <module name="querySide" target="1.8" />
       <module name="solomon" target="1.8" />
+      <module name="student" target="1.8" />
       <module name="teachingClass" target="1.8" />
     </bytecodeTargetLevel>
   </component>
