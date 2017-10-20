@@ -2,7 +2,7 @@ package com.magical.jwgl.query.handlers;
 
 import com.magical.cloud.events.StudentCreatedEvent;
 import com.magical.jwgl.query.entries.StudentEntry;
-import com.magical.jwgl.query.repository.StudentRepository;
+import com.magical.jwgl.query.repository.StudentQueryRepository;
 import org.axonframework.eventhandling.EventHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class StudentEventHandler {
 
     @Autowired
-    private StudentRepository studentRepository;
+    private StudentQueryRepository studentRepository;
 
     @EventHandler
     public void on(StudentCreatedEvent event) {
