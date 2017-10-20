@@ -1,7 +1,6 @@
 package com.magical.jwgl.aggregates;
 
 
-import com.magical.cloud.commands.CreateTeachingClassCommand;
 import com.magical.cloud.domain.CourseStudent;
 import com.magical.cloud.domain.CourseTeacher;
 import com.magical.cloud.domain.TeachingClassID;

@@ -6,11 +6,11 @@
       <module fileurl="file://$PROJECT_DIR$/configService/configService.iml" filepath="$PROJECT_DIR$/configService/configService.iml" />
       <module fileurl="file://$PROJECT_DIR$/discoveryService/discoveryService.iml" filepath="$PROJECT_DIR$/discoveryService/discoveryService.iml" />
       <module fileurl="file://$PROJECT_DIR$/proxyService/proxyService.iml" filepath="$PROJECT_DIR$/proxyService/proxyService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/teachingClass/querySide/querySide.iml" filepath="$PROJECT_DIR$/teachingClass/querySide/querySide.iml" />
       <module fileurl="file://$PROJECT_DIR$/solomon.iml" filepath="$PROJECT_DIR$/solomon.iml" />
       <module fileurl="file://$PROJECT_DIR$/student/student.iml" filepath="$PROJECT_DIR$/student/student.iml" />
       <module fileurl="file://$PROJECT_DIR$/teachingClass/teachingClass.iml" filepath="$PROJECT_DIR$/teachingClass/teachingClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/teachingClass/commandSide/teachingclass-command-side.iml" filepath="$PROJECT_DIR$/teachingClass/commandSide/teachingclass-command-side.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teachingClass/querySide/teachingclass-query-side.iml" filepath="$PROJECT_DIR$/teachingClass/querySide/teachingclass-query-side.iml" />
     </modules>
   </component>
 </project>

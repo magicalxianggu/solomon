@@ -13,6 +13,8 @@
         <module name="proxyService" />
         <module name="querySide" />
         <module name="student" />
+        <module name="teachingclass-command-side" />
+        <module name="teachingclass-query-side" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +29,8 @@
       <module name="solomon" target="1.8" />
       <module name="student" target="1.8" />
       <module name="teachingClass" target="1.8" />
+      <module name="teachingclass-command-side" target="1.8" />
+      <module name="teachingclass-query-side" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
