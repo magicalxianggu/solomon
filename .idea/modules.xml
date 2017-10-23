@@ -5,7 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/configService/configService.iml" filepath="$PROJECT_DIR$/configService/configService.iml" />
       <module fileurl="file://$PROJECT_DIR$/discoveryService/discoveryService.iml" filepath="$PROJECT_DIR$/discoveryService/discoveryService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/proxyService/proxyService.iml" filepath="$PROJECT_DIR$/proxyService/proxyService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/employee/employee.iml" filepath="$PROJECT_DIR$/employee/employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxyService/gateway-service.iml" filepath="$PROJECT_DIR$/proxyService/gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/score/score.iml" filepath="$PROJECT_DIR$/score/score.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scoreCenter/scoreCenter.iml" filepath="$PROJECT_DIR$/scoreCenter/scoreCenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/solomon.iml" filepath="$PROJECT_DIR$/solomon.iml" />
       <module fileurl="file://$PROJECT_DIR$/student/student.iml" filepath="$PROJECT_DIR$/student/student.iml" />
       <module fileurl="file://$PROJECT_DIR$/teachingClass/teachingClass.iml" filepath="$PROJECT_DIR$/teachingClass/teachingClass.iml" />

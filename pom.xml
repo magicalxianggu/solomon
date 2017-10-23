@@ -10,6 +10,9 @@
         <module>common</module>
         <module>teachingClass</module>
         <module>student</module>
+        <module>employee</module>
+        <module>score</module>
+        <module>scoreCenter</module>
     </modules>
 
     <parent>

@@ -10,8 +10,12 @@
         <module name="common" />
         <module name="configService" />
         <module name="discoveryService" />
+        <module name="employee" />
+        <module name="gateway-service" />
         <module name="proxyService" />
         <module name="querySide" />
+        <module name="score" />
+        <module name="scoreCenter" />
         <module name="student" />
         <module name="teachingclass-command-side" />
         <module name="teachingclass-query-side" />
@@ -23,9 +27,13 @@
       <module name="common" target="1.8" />
       <module name="configService" target="1.8" />
       <module name="discoveryService" target="1.8" />
+      <module name="employee" target="1.8" />
+      <module name="gateway-service" target="1.8" />
       <module name="proxyService" target="1.8" />
       <module name="query" target="1.8" />
       <module name="querySide" target="1.8" />
+      <module name="score" target="1.8" />
+      <module name="scoreCenter" target="1.8" />
       <module name="solomon" target="1.8" />
       <module name="student" target="1.8" />
       <module name="teachingClass" target="1.8" />
