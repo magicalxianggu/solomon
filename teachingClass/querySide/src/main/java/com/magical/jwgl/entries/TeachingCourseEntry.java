@@ -1,14 +1,12 @@
 package com.magical.jwgl.entries;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-@Entity
-@Table(name = "teachingCourse")
+@Document
 public class TeachingCourseEntry {
 
-    @Id
+   @Id
     private String teachingCourseID;
     private String courseName;
     //课程类型：考试、考察

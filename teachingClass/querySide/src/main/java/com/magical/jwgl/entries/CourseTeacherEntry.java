@@ -1,12 +1,12 @@
 package com.magical.jwgl.entries;
 
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-@Entity
-@Table(name = "courseTeacher")
+
+
+@Document
 public class CourseTeacherEntry {
     @Id
     private String courseTeacherID;

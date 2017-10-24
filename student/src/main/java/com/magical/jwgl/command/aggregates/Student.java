@@ -7,13 +7,14 @@ import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.commandhandling.model.AggregateIdentifier;
 import org.axonframework.commandhandling.model.AggregateRoot;
 import org.axonframework.eventhandling.EventHandler;
+import org.axonframework.spring.stereotype.Aggregate;
 
 import static org.axonframework.commandhandling.model.AggregateLifecycle.apply;
 
 /**
  * Created by zhouxp on 2017/10/20
  */
-@AggregateRoot
+@Aggregate
 public class Student {
 
   @AggregateIdentifier
@@ -36,5 +37,17 @@ public class Student {
     this.studentID = event.getStudentID();
     this.studentName = event.getStudentName();
     this.classID = event.getClassID();
+  }
+
+  public StudentID getStudentID() {
+    return studentID;
+  }
+
+  public String getStudentName() {
+    return studentName;
+  }
+
+  public String getClassID() {
+    return classID;
   }
 }

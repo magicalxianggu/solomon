@@ -27,7 +27,7 @@ public class AMQPConfiguration {
 
     @Bean
     public Queue queue(){
-        return new Queue("studentqueue", true);
+        return new Queue("empolyeequeue", true);
     }
 
     @Bean

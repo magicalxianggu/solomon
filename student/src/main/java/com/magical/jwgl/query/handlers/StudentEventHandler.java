@@ -5,10 +5,12 @@ import com.magical.jwgl.query.entries.StudentEntry;
 import com.magical.jwgl.query.repository.StudentQueryRepository;
 import org.axonframework.eventhandling.EventHandler;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 /**
  * Created by zhouxp on 2017/10/20
  */
+@Component
 public class StudentEventHandler {
 
     @Autowired

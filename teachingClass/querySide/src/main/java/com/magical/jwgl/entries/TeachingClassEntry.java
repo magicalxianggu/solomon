@@ -1,11 +1,12 @@
 package com.magical.jwgl.entries;
 
 
-import java.util.List;
-import javax.persistence.*;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-@Entity
-@Table(name = "teachingClass")
+import java.util.List;
+
+@Document
 public class TeachingClassEntry {
 
     @Id
@@ -14,16 +15,10 @@ public class TeachingClassEntry {
     //学时时间段（学期）
     private String studingInterval;
 
-    @OneToOne
-    @JoinColumn(name = "teachingClassID")
     private TeachingCourseEntry teachingCourse;
 
-    @OneToMany(cascade = CascadeType.ALL)
-    @JoinColumn(name = "teachingClassID")
     private List<CourseStudentEntry> courseStudentList;
 
-    @OneToMany(cascade = CascadeType.ALL)
-    @JoinColumn(name = "teachingClassID")
     private List<CourseTeacherEntry> courseTeacherList;
 
     public String getTeachingClassID() {

@@ -6,19 +6,19 @@ import org.axonframework.common.IdentifierFactory;
 import java.io.Serializable;
 
 /**
- * Created by zhouxp on 2017/10/20
+ * Created by zhouxp on 2017/10/24
  */
-public class StudentID  implements Serializable {
+public class EmployeeID implements Serializable {
 
     private final String identifier;
     private final int hashCode;
 
-    public StudentID() {
+    public EmployeeID() {
         this.identifier = IdentifierFactory.getInstance().generateIdentifier();
         this.hashCode = identifier.hashCode();
     }
 
-    public StudentID(String identifier) {
+    public EmployeeID(String identifier) {
         Assert.notNull(identifier, ()->"Identifier may not be null");
         this.identifier = identifier;
         this.hashCode = identifier.hashCode();
@@ -29,9 +29,9 @@ public class StudentID  implements Serializable {
         if (this == o) return true;
         if (!(o instanceof StudentID)) return false;
 
-        StudentID studentID = (StudentID) o;
+        EmployeeID employeeID = (EmployeeID) o;
 
-        return identifier.equals(studentID.identifier);
+        return identifier.equals(employeeID.identifier);
     }
 
     @Override

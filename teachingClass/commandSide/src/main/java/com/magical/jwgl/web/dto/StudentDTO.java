@@ -5,20 +5,20 @@ package com.magical.jwgl.web.dto;
  */
 public class StudentDTO {
 
-    private String id;
+    private String studentID;
     private String studentName;
 
-    public StudentDTO(String id, String studentName) {
-        this.id = id;
+    public StudentDTO(String studentID, String studentName) {
+        this.studentID = studentID;
         this.studentName = studentName;
     }
 
-    public String getId() {
-        return id;
+    public String getStudentID() {
+        return studentID;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setStudentID(String studentID) {
+        this.studentID = studentID;
     }
 
     public String getStudentName() {

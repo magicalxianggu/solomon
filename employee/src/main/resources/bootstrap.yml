@@ -1,6 +1,6 @@
 spring:
   application:
-    name: student-service
+    name: employee-service
 
   cloud:
     config:
@@ -17,9 +17,7 @@ spring:
       sql-script-encoding: UTF-8
   jpa:
     show-sql: true
-    hibernate:
-      ddl-auto: update
-    format-sql: true
+    hibernate.ddl-auto: update
   # mq for event bus
   rabbitmq:
     host: 127.0.0.1
@@ -42,7 +40,7 @@ eureka:
     prefer-ip-address: true
 
 server:
-  port: 8030 #HTTP(Tomcat) port
+  port: 8040 #HTTP(Tomcat) port
 
 # enable Spring Cloud support of Axon
 axon:

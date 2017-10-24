@@ -1,14 +1,12 @@
 package com.magical.jwgl.query.entries;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+
+import org.springframework.data.annotation.Id;
 
 /**
  * Created by zhouxp on 2017/10/20
  */
-@Entity
-@Table(name = "student")
+
 public class StudentEntry {
 
     @Id
@@ -20,6 +18,9 @@ public class StudentEntry {
         this.studentID = studentID;
         this.studentName = studentName;
         this.classID = classID;
+    }
+
+    public StudentEntry() {
     }
 
     public String getStudentID() {

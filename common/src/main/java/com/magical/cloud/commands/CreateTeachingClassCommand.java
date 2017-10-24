@@ -9,7 +9,6 @@ import java.util.Map;
 
 public class CreateTeachingClassCommand {
 
-
     @TargetAggregateIdentifier
     private TeachingClassID teachingClassID;
 
@@ -20,11 +19,11 @@ public class CreateTeachingClassCommand {
     private String studingInterval;
 
     //k:教员ID；v:上课教员类型
-    private Map<String,TeacherPositionEnum> teachers;
+    private Map<String,String> teachers;
 
     private ArrayList<String> studentIDs;
 
-    public CreateTeachingClassCommand(Map<String,String> courseInfo, String studingInterval, Map<String, TeacherPositionEnum> teachers, ArrayList<String> studentIDs) {
+    public CreateTeachingClassCommand(Map<String,String> courseInfo, String studingInterval, Map<String, String> teachers, ArrayList<String> studentIDs) {
         this.teachingClassID = new TeachingClassID();
         this.courseInfo = courseInfo;
         this.studingInterval = studingInterval;
@@ -44,7 +43,7 @@ public class CreateTeachingClassCommand {
         return studingInterval;
     }
 
-    public Map<String, TeacherPositionEnum> getTeachers() {
+    public Map<String, String> getTeachers() {
         return teachers;
     }
 
