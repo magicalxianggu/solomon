@@ -2,7 +2,6 @@ package com.magical.jwgl.command.controllers;
 
 import com.alibaba.fastjson.JSONObject;
 import com.magical.cloud.commands.CreateEmployeeCommand;
-import com.magical.cloud.commands.CreateStudentCommand;
 import com.magical.jwgl.command.aggregates.Employee;
 import org.axonframework.commandhandling.CommandExecutionException;
 import org.axonframework.commandhandling.gateway.CommandGateway;
@@ -54,7 +53,7 @@ public class EmployeeController {
         }
     }
 
-    @GetMapping(value = "teacher/{id}")
+    @GetMapping(value = "empolyee/{id}")
     public JSONObject getTeacherDTOByID(@PathVariable("id") String teacherID){
 
       Aggregate<Employee> employeeAggregate = repository.load(teacherID);

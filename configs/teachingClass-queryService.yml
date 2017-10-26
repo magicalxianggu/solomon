@@ -16,8 +16,8 @@ spring:
   rabbitmq:
     host: 127.0.0.1
     port: 5672
-    username: axon
-    password: axon
+    username: admin
+    password: a1b2c3
   data:
     mongodb:
       host: 127.0.0.1
@@ -46,3 +46,8 @@ axon:
   #      autoStart: false
   amqp:
       exchange: amq.fanout
+  eventhandling:
+        processors:
+          teachingClassQuery:
+            mode: tracking
+            #source: queueMessageSource

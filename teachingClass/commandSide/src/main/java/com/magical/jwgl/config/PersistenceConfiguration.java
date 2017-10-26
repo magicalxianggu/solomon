@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * Created by Edison on 2017/3/28.
+ * Created by
  */
 @Configuration
 public class PersistenceConfiguration {

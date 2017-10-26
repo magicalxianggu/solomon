@@ -13,6 +13,9 @@ public class StudentDTO {
         this.studentName = studentName;
     }
 
+    public StudentDTO() {
+    }
+
     public String getStudentID() {
         return studentID;
     }

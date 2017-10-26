@@ -31,6 +31,9 @@ public class TeachingClassCreatedEvent {
         this.courseStudents = courseStudents;
     }
 
+    public TeachingClassCreatedEvent() {
+    }
+
     public TeachingClassID getTeachingClassID() {
         return teachingClassID;
     }

@@ -26,114 +26,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TeachingClassEventHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/handlers/TeachingClassEventHandler.java">
+      <file leaf-file-name="CreateCourseEvaluateStandardCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/magical/cloud/commands/CreateCourseEvaluateStandardCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+              <folding>
+                <element signature="e#1254#1255#0" expanded="true" />
+                <element signature="e#1289#1290#0" expanded="true" />
+                <element signature="e#1320#1321#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#1382#1383#0" expanded="true" />
+                <element signature="e#1425#1426#0" expanded="true" />
+                <element signature="e#1457#1458#0" expanded="true" />
+                <element signature="e#1512#1513#0" expanded="true" />
+                <element signature="e#1551#1552#0" expanded="true" />
+                <element signature="e#1619#1620#0" expanded="true" />
+                <element signature="e#1660#1661#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseEvaluateStandard.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/command/aggergates/CourseEvaluateStandard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeachingClassScore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/command/aggergates/TeachingClassScore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeachingClassScoreID.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/command/aggergates/TeachingClassScoreID.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseStudentEntry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/entries/CourseStudentEntry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeachingClassRepository.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/repository/TeachingClassRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentQueryRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/query/repository/StudentQueryRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/student/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="47" column="6" lean-forward="false" selection-start-line="47" selection-start-column="6" selection-end-line="50" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/teachingClass/querySide/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeachingClassCommandApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/TeachingClassCommandApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseTeacherEntry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/entries/CourseTeacherEntry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeachingCourseEntry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/entries/TeachingCourseEntry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeachingClassEntry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/entries/TeachingClassEntry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -161,57 +103,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/query/repository/StudentRepository.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/magical/cloud/utils/FastJsonConverter.java" />
-        <option value="$PROJECT_DIR$/student/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/student/src/test/java/com/magical/jwgl/StudentCommandHandlerTest.java" />
-        <option value="$PROJECT_DIR$/score/pom.xml" />
-        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/core/domain/ScoreTypeEnum.java" />
-        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/core/domain/CheckTypeEnum.java" />
-        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/core/domain/Mark.java" />
-        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/core/aggergates/CourseEvaluateStandard.java" />
-        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/ScoreApplication.java" />
-        <option value="$PROJECT_DIR$/scoreCenter/pom.xml" />
-        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/dto/TeacherDTO.java" />
-        <option value="$PROJECT_DIR$/employee/pom.xml" />
-        <option value="$PROJECT_DIR$/employee/src/main/java/com/magical/jwgl/EmployeeApplication.java" />
-        <option value="$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/command/config/AMQPConfiguration.java" />
-        <option value="$PROJECT_DIR$/employee/src/main/java/com/magical/jwgl/command/config/AMQPConfiguration.java" />
-        <option value="$PROJECT_DIR$/employee/src/main/java/com/magical/jwgl/command/config/PersistenceConfiguration.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/magical/cloud/domain/EmployeeID.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/magical/cloud/domain/StudentID.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/magical/cloud/events/EmployeeCreatedEvent.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/magical/cloud/commands/CreateEmployeeCommand.java" />
-        <option value="$PROJECT_DIR$/employee/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/TeachingClassCommandApplication.java" />
-        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/clients/TeacherService.java" />
-        <option value="$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/command/aggregates/Student.java" />
-        <option value="$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.24/fastjson-1.2.24.jar!/com/alibaba/fastjson/JSONObject.class" />
-        <option value="$PROJECT_DIR$/employee/src/main/java/com/magical/jwgl/command/aggregates/Employee.java" />
-        <option value="$PROJECT_DIR$/employee/src/main/java/com/magical/jwgl/command/controllers/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/employee/src/main/java/com/magical/jwgl/query/repository/EmployeeQueryRepository.java" />
+        <option value="$PROJECT_DIR$/employee/src/main/java/com/magical/jwgl/query/entries/EmployeeEntry.java" />
+        <option value="$PROJECT_DIR$/employee/src/main/java/com/magical/jwgl/query/handles/EmployeeEventHandler.java" />
         <option value="$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/command/controllers/StudentController.java" />
-        <option value="$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/query/handlers/StudentEventHandler.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.11.RELEASE/spring-web-4.3.11.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class" />
-        <option value="$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/query/repository/StudentQueryRepository.java" />
-        <option value="$PROJECT_DIR$/student/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/query/entries/StudentEntry.java" />
-        <option value="$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.24/fastjson-1.2.24.jar!/com/alibaba/fastjson/JSON.class" />
+        <option value="$PROJECT_DIR$/employee/src/main/java/com/magical/jwgl/query/controllers/EmployeeClientController.java" />
+        <option value="$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/controllers/TeachingClassController.java" />
         <option value="$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/query/controllers/StudentQueryController.java" />
-        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/clients/StudentService.java" />
-        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/dto/StudentDTO.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/magical/cloud/commands/CreateTeachingClassCommand.java" />
-        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/controllers/TeachingClassController.java" />
-        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/handlers/TeachingClassCommandHandler.java" />
-        <option value="$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/handlers/TeachingClassEventHandler.java" />
-        <option value="$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/entries/CourseStudentEntry.java" />
-        <option value="$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/entries/CourseTeacherEntry.java" />
-        <option value="$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/entries/TeachingCourseEntry.java" />
-        <option value="$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/entries/TeachingClassEntry.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.11.RELEASE/spring-context-4.3.11.RELEASE.jar!/org/springframework/stereotype/Repository.class" />
+        <option value="$PROJECT_DIR$/employee/src/main/java/com/magical/jwgl/command/controllers/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/student/pom.xml" />
         <option value="$PROJECT_DIR$/teachingClass/querySide/pom.xml" />
-        <option value="$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/repository/TeachingClassRepository.java" />
+        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/clients/clientProxy/TeacherClient.java" />
+        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/clients/clientProxy/TeacherClientProxy.java" />
+        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/clients/clientProxys/StudentProxy.java" />
+        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/dto/StudentDTO.java" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.11.RELEASE/spring-aop-4.3.11.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class" />
+        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/controllers/TeachingClassController.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/magical/cloud/commands/CreateTeachingClassCommand.java" />
+        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/clients/TeacherService.java" />
+        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/clients/StudentService.java" />
+        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/dto/TeacherDTO.java" />
+        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/clients/clientProxys/TeacherProxy.java" />
+        <option value="$PROJECT_DIR$/student/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/core/domain/CheckTypeEnum.java" />
+        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/core/domain/ScoreTypeEnum.java" />
+        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/core/aggergates/CourseEvaluateStandard.java" />
+        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/core/domain/EvaluateCourse.java" />
+        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/core/domain/Mark.java" />
+        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/core/aggergates/TeachingClassScore.java" />
+        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/core/domain/ScoreReportCard.java" />
+        <option value="$PROJECT_DIR$/score/pom.xml" />
+        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/command/domain/EvaluateCourse.java" />
+        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/command/domain/Mark.java" />
+        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/command/domain/ScoreReportCard.java" />
+        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/TeachingClassCommandApplication.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/magical/cloud/events/TeachingClassCreatedEvent.java" />
+        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/handlers/TeachingClassCommandHandler.java" />
+        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/configs/teachingClass-commandService.yml" />
+        <option value="$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/config/CloudConfiguration.java" />
+        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/config/PersistenceConfiguration.java" />
+        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/config/CloudConfiguration.java" />
+        <option value="$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/TeachingClassQueryApplication.java" />
+        <option value="$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/handlers/TeachingClassEventHandler.java" />
+        <option value="$PROJECT_DIR$/configs/teachingClass-queryService.yml" />
+        <option value="$PROJECT_DIR$/teachingClass/querySide/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/config/AMQPConfiguration.java" />
+        <option value="$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/config/AMQPConfiguration.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/magical/cloud/commands/CreateCourseEvaluateStandardCommand.java" />
+        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/command/aggergates/TeachingClassScore.java" />
+        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/command/aggergates/TeachingClassScoreID.java" />
+        <option value="$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/command/aggergates/CourseEvaluateStandard.java" />
       </list>
     </option>
   </component>
@@ -233,9 +175,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="114" />
-    <option name="y" value="170" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="47" />
+    <option name="y" value="90" />
     <option name="width" value="1231" />
     <option name="height" value="860" />
   </component>
@@ -270,7 +212,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -322,7 +264,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
@@ -332,243 +274,91 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solomon" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solomon" type="462c0819:PsiDirectoryNode" />
+              <item name="score" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solomon" type="462c0819:PsiDirectoryNode" />
+              <item name="score" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solomon" type="462c0819:PsiDirectoryNode" />
+              <item name="score" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solomon" type="462c0819:PsiDirectoryNode" />
+              <item name="score" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solomon" type="462c0819:PsiDirectoryNode" />
+              <item name="score" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwgl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solomon" type="462c0819:PsiDirectoryNode" />
+              <item name="score" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwgl" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solomon" type="462c0819:PsiDirectoryNode" />
+              <item name="score" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwgl" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="aggergates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solomon" type="462c0819:PsiDirectoryNode" />
+              <item name="score" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwgl" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
               <item name="solomon" type="462c0819:PsiDirectoryNode" />
               <item name="student" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jwgl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jwgl" type="462c0819:PsiDirectoryNode" />
-              <item name="query" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jwgl" type="462c0819:PsiDirectoryNode" />
-              <item name="query" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="commandSide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="commandSide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="commandSide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="commandSide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="commandSide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jwgl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="commandSide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jwgl" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="commandSide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jwgl" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="commandSide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jwgl" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="clients" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="commandSide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jwgl" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="commandSide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="querySide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="querySide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="querySide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="querySide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="querySide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jwgl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="querySide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jwgl" type="462c0819:PsiDirectoryNode" />
-              <item name="entries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="querySide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jwgl" type="462c0819:PsiDirectoryNode" />
-              <item name="handlers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solomon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solomon" type="462c0819:PsiDirectoryNode" />
-              <item name="teachingClass" type="462c0819:PsiDirectoryNode" />
-              <item name="querySide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jwgl" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -589,19 +379,22 @@
     <property name="SearchEverywhereHistoryKey" value="id&#9;FILE&#9;file://C:/GitHub/solomon/common/src/main/java/com/magical/cloud/domain/StudentID.java" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.magical.jwgl.command.aggergates" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.magical.cloud.domain" />
+      <recent name="com.magical.jwgl.query" />
       <recent name="com.magical.jwgl.command" />
       <recent name="com.magical.score" />
       <recent name="com.magical.jwgl" />
-      <recent name="com.magical.jwgl.core" />
-      <recent name="com.magical.jwgl.web" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\solomon\teachingClass\querySide\src\main\java\com\magical\jwgl\config" />
       <recent name="C:\GitHub\solomon\employee\src\main\java\com\magical\jwgl\command\config" />
       <recent name="C:\GitHub\solomon\employee\src\main\resources" />
       <recent name="C:\GitHub\solomon\student\src\main\resources" />
       <recent name="C:\GitHub\solomon\student\src\main\java\com\magical\jwgl\command\config" />
-      <recent name="C:\GitHub\solomon\teachingClass\commandSide\src\main\java\com\magical\jwgl\controllers" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.magical.cloud.utils" />
@@ -626,7 +419,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StudentApplication">
+  <component name="RunManager" selected="Spring Boot.TeachingClassQueryApplication">
     <configuration name="DiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.magical.cloud.DiscoveryServiceApplication" />
@@ -635,11 +428,11 @@
       <module name="discovery-service" />
       <envs />
     </configuration>
-    <configuration name="EmployeeAppli" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="EmployeeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.magical.jwgl.EmployeeApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="employee" />
+      <module name="employee-service" />
       <envs />
     </configuration>
     <configuration name="ProxyServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -650,11 +443,25 @@
       <module name="gateway-service" />
       <envs />
     </configuration>
+    <configuration name="ScoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.magical.jwgl.ScoreApplication" />
+      <module name="scoreService" />
+      <envs />
+    </configuration>
     <configuration name="StudentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.magical.jwgl.StudentApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <module name="studentService" />
+      <envs />
+    </configuration>
+    <configuration name="TeachingClassCommandApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.magical.jwgl.TeachingClassCommandApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <module name="teachingclass-command-side" />
       <envs />
     </configuration>
     <configuration name="TeachingClassQueryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -757,22 +564,15 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="commandapplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.magical.jwgl.TeachingClassCommandApplication" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <module name="teachingclass-command-side" />
-      <envs />
-    </configuration>
-    <list size="7">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ConfigServiceApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.DiscoveryServiceApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.ProxyServiceApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.commandapplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.TeachingClassCommandApplication" />
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.TeachingClassQueryApplication" />
       <item index="5" class="java.lang.String" itemvalue="Spring Boot.StudentApplication" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.EmployeeAppli" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.EmployeeApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.ScoreApplication" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -796,7 +596,9 @@
       <workItem from="1508376985065" duration="8238000" />
       <workItem from="1508463709171" duration="14014000" />
       <workItem from="1508722808984" duration="8057000" />
-      <workItem from="1508806457427" duration="23909000" />
+      <workItem from="1508806457427" duration="24052000" />
+      <workItem from="1508892347131" duration="26945000" />
+      <workItem from="1508978524179" duration="22330000" />
     </task>
     <servers />
   </component>
@@ -806,7 +608,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85052000" />
+    <option name="totallyTimeSpent" value="134470000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -818,39 +620,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15208614" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.113055184" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5028653" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20995963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.01615074" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15208614" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33781964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35530087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22072679" sideWeight="0.49713466" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.082099594" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58008075" sideWeight="0.49713466" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -866,23 +668,23 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.01884253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15208614" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5921938" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36473754" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06446991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20995963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12893982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22072679" sideWeight="0.49713466" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -895,308 +697,357 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/query/handlers/StudentEventHandler.java</url>
-          <line>21</line>
+          <url>file://$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/handlers/TeachingClassEventHandler.java</url>
+          <line>29</line>
           <properties />
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-core/3.0.5/axon-core-3.0.5.jar!/org/axonframework/commandhandling/model/Repository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-core/3.0.5/axon-core-3.0.5.jar!/org/axonframework/commandhandling/model/Aggregate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.24/fastjson-1.2.24.jar!/com/alibaba/fastjson/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-          <folding>
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/src/test/java/com/magical/jwgl/StudentCommandHandlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/StudentApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-core/3.0.5/axon-core-3.0.5.jar!/org/axonframework/commandhandling/model/inspection/ModelInspector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-core/3.0.5/axon-core-3.0.5.jar!/org/axonframework/messaging/interceptors/CorrelationDataInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-core/3.0.5/axon-core-3.0.5.jar!/org/axonframework/messaging/DefaultInterceptorChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-core/3.0.5/axon-core-3.0.5.jar!/org/axonframework/commandhandling/AggregateAnnotationCommandHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-core/3.0.5/axon-core-3.0.5.jar!/org/axonframework/commandhandling/model/AbstractRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-core/3.0.5/axon-core-3.0.5.jar!/org/axonframework/commandhandling/model/LockingRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-core/3.0.5/axon-core-3.0.5.jar!/org/axonframework/eventsourcing/EventSourcingRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-core/3.0.5/axon-core-3.0.5.jar!/org/axonframework/eventsourcing/EventSourcedAggregate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-core/3.0.5/axon-core-3.0.5.jar!/org/axonframework/commandhandling/model/AggregateLifecycle.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-core/3.0.5/axon-core-3.0.5.jar!/org/axonframework/commandhandling/model/inspection/AnnotatedAggregate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-core/3.0.5/axon-core-3.0.5.jar!/org/axonframework/messaging/unitofwork/DefaultUnitOfWork.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-core/3.0.5/axon-core-3.0.5.jar!/org/axonframework/messaging/annotation/AnnotatedMessageHandlingMember.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/magical/cloud/domain/StudentID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.11.RELEASE/spring-web-4.3.11.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="126">
           <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/command/aggregates/Student.java">
+    <entry file="file://$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/query/controllers/StudentQueryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="525">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/magical/jwgl/query/controllers/EmployeeClientController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-71">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="286">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/query/entries/StudentEntry.java">
+    <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/clients/clientProxys/StudentProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/query/handlers/StudentEventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.24/fastjson-1.2.24.jar!/com/alibaba/fastjson/JSON.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="583" column="25" lean-forward="false" selection-start-line="583" selection-start-column="25" selection-end-line="583" selection-end-column="25" />
-          <folding>
-            <element signature="e#22682#22683#0" expanded="true" />
-            <element signature="e#22755#22756#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="455">
+          <caret line="22" column="61" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/clients/TeacherService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/dto/EmployeeDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/clients/clientProxys/TeacherProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/aggregates/TeachingClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/dto/StudentDTO.java">
+    <entry file="file://$PROJECT_DIR$/configs/proxyService.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxyService/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1575">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/dto/TeacherDTO.java">
+    <entry file="file://$PROJECT_DIR$/employee/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="-588">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discoveryService/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/web/clients/StudentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-441">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/command/handlers/ScoreEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/command/controllers/StudentController.java">
+    <entry file="file://$PROJECT_DIR$/student/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="37" column="73" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="73" />
+        <state relative-caret-position="905">
+          <caret line="107" column="12" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="107" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/score/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/command/domain/Mark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/magical/cloud/domain/ScoreTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/command/domain/ScoreReportCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/query/controllers/StudentQueryController.java">
+    <entry file="file://$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/command/domain/EvaluateCourse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="63" lean-forward="true" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/magical/cloud/domain/CourseTeacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/magical/cloud/domain/TeacherPositionEnum.java">
+    <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="-441">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/magical/cloud/commands/CreateTeachingClassCommand.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/magical/cloud/events/TeachingClassCreatedEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="420">
+          <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/TeachingClassCommandApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teachingClass/querySide/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-core/3.0.5/axon-core-3.0.5.jar!/org/axonframework/serialization/Serializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-amqp/3.0.5/axon-amqp-3.0.5.jar!/org/axonframework/amqp/eventhandling/spring/SpringAMQPMessageSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/config/PersistenceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-core/3.0.5/axon-core-3.0.5.jar!/org/axonframework/messaging/annotation/AnnotatedMessageHandlingMember.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/teachingClass-commandService.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="50" column="32" lean-forward="false" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/handlers/TeachingClassCommandHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+        <state relative-caret-position="378">
+          <caret line="36" column="19" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/magical/jwgl/EmployeeApplication.java">
+    <entry file="file://$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/handlers/TeachingClassEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/teachingClass-queryService.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="51" column="12" lean-forward="false" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/TeachingClassQueryApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/config/CloudConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/config/CloudConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-core/3.0.5/axon-core-3.0.5.jar!/org/axonframework/config/EventHandlingConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2376">
+          <caret line="84" column="61" lean-forward="false" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/config/AMQPConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teachingClass/querySide/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="53" column="14" lean-forward="false" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/config/AMQPConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/ScoreApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -1204,135 +1055,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/magical/jwgl/command/aggregates/Employee.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/magical/cloud/commands/CreateEmployeeCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="40" column="39" lean-forward="false" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/magical/jwgl/command/controllers/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="65" column="15" lean-forward="false" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
+        <state relative-caret-position="147">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/controllers/TeachingClassController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/handlers/TeachingClassEventHandler.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/magical/cloud/domain/TeachingClassID.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/entries/TeachingCourseEntry.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/magical/cloud/domain/CheckTypeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/entries/TeachingClassEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/entries/CourseTeacherEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/entries/CourseStudentEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.11.RELEASE/spring-context-4.3.11.RELEASE.jar!/org/springframework/stereotype/Repository.class">
+    <entry file="file://$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/command/aggergates/TeachingClassScore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student/src/main/java/com/magical/jwgl/query/repository/StudentQueryRepository.java">
+    <entry file="file://$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/command/aggergates/TeachingClassScoreID.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="78" />
+        <state relative-caret-position="105">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/magical/cloud/commands/CreateCourseEvaluateStandardCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1551#1552#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teachingClass/commandSide/src/main/java/com/magical/jwgl/TeachingClassCommandApplication.java">
+    <entry file="file://$PROJECT_DIR$/score/src/main/java/com/magical/jwgl/command/aggergates/CourseEvaluateStandard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="47" column="6" lean-forward="false" selection-start-line="47" selection-start-column="6" selection-end-line="50" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teachingClass/querySide/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teachingClass/querySide/src/main/java/com/magical/jwgl/repository/TeachingClassRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1356,7 +1142,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring (student)|Spring</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1391,7 +1177,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>score</last-edited>
+          <last-edited>teachingclass-command-side</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

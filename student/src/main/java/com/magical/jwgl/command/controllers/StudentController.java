@@ -54,7 +54,7 @@ public class StudentController {
         }
     }
 
-    @GetMapping(value = "students/{id}")
+    @GetMapping(value = "/students/{id}")
     public JSONObject getStudentDTOByID(@PathVariable("id") String studentID){
 
         Aggregate<Student> student = repository.load(studentID);

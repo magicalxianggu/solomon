@@ -7,29 +7,32 @@ import com.magical.cloud.domain.CourseTeacher;
 import com.magical.cloud.domain.TeacherPositionEnum;
 import com.magical.cloud.domain.TeachingCourse;
 import com.magical.jwgl.aggregates.TeachingClass;
-import com.magical.jwgl.web.clients.StudentService;
-import com.magical.jwgl.web.clients.TeacherService;
+import com.magical.jwgl.web.clients.clientProxys.StudentProxy;
+import com.magical.jwgl.web.clients.clientProxys.TeacherProxy;
+import com.magical.jwgl.web.dto.EmployeeDTO;
 import com.magical.jwgl.web.dto.StudentDTO;
-import com.magical.jwgl.web.dto.TeacherDTO;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.commandhandling.model.Repository;
+import org.axonframework.config.ProcessingGroup;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Map;
 
 @Component
+@ProcessingGroup(value = "teachingClassCommand")
 public class TeachingClassCommandHandler {
 
     @Autowired
     private Repository<TeachingClass> repository;
 
     @Autowired
-    private StudentService studentService;
+    private StudentProxy studentService;
 
     @Autowired
-    private TeacherService teacherService;
+    private TeacherProxy teacherService;
 
     @CommandHandler
     public void handler(CreateTeachingClassCommand command) throws Exception {
@@ -39,26 +42,54 @@ public class TeachingClassCommandHandler {
         TeachingCourse teachingCourse = new TeachingCourse(courseInfo.get("courseID"),courseInfo.get("courseName"),courseInfo.get("courseType"),courseInfo.get("courseNature"));
 
 
-        ArrayList<CourseTeacher> courseTeachers = null;
+        ArrayList<CourseTeacher> courseTeachers = new ArrayList<>();
 
-        command.getTeachers().forEach((teacherID,teacherType)->{
+        HashMap<String,String> teachersMap = command.getTeachers();
+
+/*
+        Iterator iter = teachersMap.entrySet().iterator();
+
+        while (iter.hasNext()){
+
+            HashMap.Entry entry = (HashMap.Entry) iter.next();
+
+            String key = (String) entry.getKey();
+
+            String val = (String) entry.getValue();
 
             //从教员仓库获得教员信息
-            TeacherDTO teacherDTO = this.teacherService.getTeacherDTOByID(teacherID);
+            TeacherDTO teacherDTO = this.teacherService.getTeacherDTOByID(key);
 
             TeacherPositionEnum teacherPosition = null;
-            if(teacherType == TeacherPositionEnum.MAJOR.toString() ){
+            if(val == TeacherPositionEnum.MAJOR.toString() ){
+                teacherPosition = TeacherPositionEnum.MAJOR;
+            }else {
+                teacherPosition = TeacherPositionEnum.ASSIST;
+            }
+            //封装上课教员信息
+            courseTeachers.add(new CourseTeacher(key,teacherDTO.getTeacherName(),teacherPosition));
+        }
+**/
+
+
+        teachersMap.forEach((teacherID,teacherType)->{
+
+            //从教员仓库获得教员信息
+            EmployeeDTO teacherDTO = this.teacherService.getTeacherDTOByID(teacherID);
+
+            TeacherPositionEnum teacherPosition = null;
+            if(teacherType.equals(TeacherPositionEnum.MAJOR.toString())){
                 teacherPosition = TeacherPositionEnum.MAJOR;
             }else {
                 teacherPosition = TeacherPositionEnum.ASSIST;
             }
 
             //封装上课教员信息
-            courseTeachers.add(new CourseTeacher(teacherID,teacherDTO.getTeacherName(),teacherPosition));
+            courseTeachers.add(new CourseTeacher(teacherID,teacherDTO.getEmployeeName(),teacherPosition));
 
         });
 
-        ArrayList<CourseStudent> courseStudents = null;
+        ArrayList<CourseStudent> courseStudents = new ArrayList<>();
 
         command.getStudentIDs().forEach(studentID->{
 

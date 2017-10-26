@@ -21,7 +21,7 @@ spring:
   # mq for event bus
   rabbitmq:
     host: 127.0.0.1
-    port: 15672
+    port: 5672
     username: admin
     password: a1b2c3
   data:
@@ -40,7 +40,7 @@ eureka:
     prefer-ip-address: true
 
 server:
-  port: 0 #HTTP(Tomcat) port
+  port: 8083 #HTTP(Tomcat) port
 
 # enable Spring Cloud support of Axon
 axon:
@@ -48,3 +48,8 @@ axon:
     enabled: true
   amqp:
     exchange: amq.fanout
+  eventhandling:
+      processors:
+        teachingClassQuery:
+          mode: tracking
+         # source: queueMessageSource

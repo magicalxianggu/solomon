@@ -13,6 +13,7 @@
         <module name="discovery-service" />
         <module name="discoveryService" />
         <module name="employee" />
+        <module name="employee-service" />
         <module name="gateway-service" />
         <module name="proxyService" />
         <module name="querySide" />
@@ -35,6 +36,7 @@
       <module name="discovery-service" target="1.8" />
       <module name="discoveryService" target="1.8" />
       <module name="employee" target="1.8" />
+      <module name="employee-service" target="1.8" />
       <module name="gateway-service" target="1.8" />
       <module name="proxyService" target="1.8" />
       <module name="query" target="1.8" />

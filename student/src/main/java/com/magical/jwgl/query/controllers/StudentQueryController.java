@@ -1,6 +1,5 @@
 package com.magical.jwgl.query.controllers;
 
-import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.magical.jwgl.query.entries.StudentEntry;
 import com.magical.jwgl.query.repository.StudentQueryRepository;
@@ -18,7 +17,7 @@ public class StudentQueryController {
     @Autowired
     private StudentQueryRepository repository;
 
-    @GetMapping(value = "student/{id}")
+    @GetMapping(value = "/student/{id}")
     public JSONObject findStudentByID(@PathVariable("id") String studentID){
 
         StudentEntry studentEntry= repository.findOne(studentID);

@@ -1,4 +1,4 @@
-package com.magical.jwgl.core.handlers;
+package com.magical.jwgl.command.handlers;
 
 /**
  * Created by zhouxp on 2017/10/23

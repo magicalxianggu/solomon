@@ -3,14 +3,14 @@ package com.magical.jwgl.controllers;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.magical.cloud.commands.CreateTeachingClassCommand;
+import com.magical.jwgl.web.clients.StudentService;
+import com.magical.jwgl.web.clients.clientProxys.StudentProxy;
+import com.magical.jwgl.web.dto.StudentDTO;
 import org.axonframework.commandhandling.CommandExecutionException;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 
 import java.util.ArrayList;
@@ -20,7 +20,7 @@ import java.util.Map;
 import static org.slf4j.LoggerFactory.getLogger;
 
 @RestController
-@RequestMapping(value = "/command")
+//@RequestMapping(value = "/command")
 public class TeachingClassController {
 
     private static final Logger LOGGER = getLogger(TeachingClassController.class);
@@ -28,7 +28,10 @@ public class TeachingClassController {
     @Autowired
     private CommandGateway commandGateway;
 
-    @PostMapping(value = "/addTeachingClass")
+    @Autowired
+    private StudentProxy studentService;
+
+    @PostMapping(value = "/command/addTeachingClass")
     public void addTeachingClass( @RequestBody(required = true) JSONObject input){
 
         try{
@@ -41,7 +44,7 @@ public class TeachingClassController {
 
              Map courseInfo = courseJson;
 
-             Map<String,String> teachers = new HashMap<>();
+             HashMap<String,String> teachers = new HashMap<>();
 
              ArrayList<String> studentIDs = new ArrayList<>();
             //构建命令
@@ -58,11 +61,17 @@ public class TeachingClassController {
             }
 
             //发送命令
-            commandGateway.sendAndWait(command);
+            this.commandGateway.sendAndWait(command);
 
         }catch (CommandExecutionException cex){
             LOGGER.warn("Add Command FAILED with Message: {}", cex.getMessage());
+        }
+
     }
 
+    @GetMapping(value = "/command/students/{id}")
+    public StudentDTO findStudentByID(@PathVariable("id") String studentID){
+
+      return this.studentService.getStudentDTOByID(studentID);
     }
 }

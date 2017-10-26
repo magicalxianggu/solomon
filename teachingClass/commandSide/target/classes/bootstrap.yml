@@ -40,7 +40,7 @@ eureka:
     prefer-ip-address: true
 
 server:
-  port: 0 #HTTP(Tomcat) port
+  port: 8660 #HTTP(Tomcat) port
 
 # enable Spring Cloud support of Axon
 axon:
@@ -48,3 +48,8 @@ axon:
     enabled: true
   amqp:
     exchange: amq.fanout
+  eventhandling:
+     processors:
+       teachingClassCommand:
+          mode: tracking
+          source: queueMessageSource

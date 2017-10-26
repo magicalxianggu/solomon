@@ -5,6 +5,7 @@ import com.magical.cloud.domain.TeachingClassID;
 import org.axonframework.commandhandling.TargetAggregateIdentifier;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Map;
 
 public class CreateTeachingClassCommand {
@@ -19,11 +20,11 @@ public class CreateTeachingClassCommand {
     private String studingInterval;
 
     //k:教员ID；v:上课教员类型
-    private Map<String,String> teachers;
+    private HashMap<String,String> teachers;
 
     private ArrayList<String> studentIDs;
 
-    public CreateTeachingClassCommand(Map<String,String> courseInfo, String studingInterval, Map<String, String> teachers, ArrayList<String> studentIDs) {
+    public CreateTeachingClassCommand(Map<String,String> courseInfo, String studingInterval, HashMap<String, String> teachers, ArrayList<String> studentIDs) {
         this.teachingClassID = new TeachingClassID();
         this.courseInfo = courseInfo;
         this.studingInterval = studingInterval;
@@ -35,19 +36,19 @@ public class CreateTeachingClassCommand {
         return teachingClassID;
     }
 
-    public Map<String, String> getCourseInfo() {
-        return courseInfo;
-    }
-
     public String getStudingInterval() {
         return studingInterval;
     }
 
-    public Map<String, String> getTeachers() {
-        return teachers;
-    }
-
     public ArrayList<String> getStudentIDs() {
         return studentIDs;
+    }
+
+    public Map<String, String> getCourseInfo() {
+        return courseInfo;
+    }
+
+    public HashMap<String, String> getTeachers() {
+        return teachers;
     }
 }

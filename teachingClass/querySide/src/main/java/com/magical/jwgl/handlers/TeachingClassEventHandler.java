@@ -7,13 +7,16 @@ import com.magical.jwgl.entries.CourseTeacherEntry;
 import com.magical.jwgl.entries.TeachingClassEntry;
 import com.magical.jwgl.entries.TeachingCourseEntry;
 import com.magical.jwgl.repository.TeachingClassRepository;
+import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Component
+@ProcessingGroup(value = "teachingClassQuery")
 public class TeachingClassEventHandler
 {
 
@@ -27,14 +30,14 @@ public class TeachingClassEventHandler
         TeachingCourseEntry teachingCourseEntry = new TeachingCourseEntry(event.getTeachingCourse().getTeachingCourseID(),event.getTeachingCourse().getCourseName(),event.getTeachingCourse().getCourseType(),event.getTeachingCourse().getCourseNature());
 
         //初始化上课教员
-        List<CourseTeacherEntry> courseTeacherEntries = null;
+        List<CourseTeacherEntry> courseTeacherEntries = new ArrayList<>();
         event.getCourseTeachers().forEach(teacher->{
             CourseTeacherEntry courseTeacherEntry = new CourseTeacherEntry(teacher.getCourseTeacherID(),teacher.getCourseTeacherName(),teacher.getTeacherPosition().toString());
             courseTeacherEntries.add(courseTeacherEntry);
         });
 
         //初始化上课学员
-        List<CourseStudentEntry> courseStudentEntries = null;
+        List<CourseStudentEntry> courseStudentEntries = new ArrayList<>();
         event.getCourseStudents().forEach(student -> {
             CourseStudentEntry courseStudentEntry = new CourseStudentEntry(student.getCourseStudentID(),student.getStudentName());
             courseStudentEntries.add(courseStudentEntry);
