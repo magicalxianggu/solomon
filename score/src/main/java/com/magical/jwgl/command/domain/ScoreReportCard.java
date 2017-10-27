@@ -11,4 +11,12 @@ package com.magical.jwgl.command.domain;
 public class ScoreReportCard {
 
     private HashMap<StudentID,Mark> scores;
+
+    public ScoreReportCard(HashMap<StudentID, Mark> scores) {
+        this.scores = scores;
+    }
+
+    public HashMap<StudentID, Mark> getScores() {
+        return scores;
+    }
 }

@@ -1,10 +1,13 @@
 package com.magical.jwgl.command.aggergates;
 
+import com.magical.cloud.domain.CourseEvaluateStandardID;
 import com.magical.cloud.domain.TeachingClassID;
 import com.magical.jwgl.command.domain.EvaluateCourse;
 import com.magical.jwgl.command.domain.ScoreReportCard;
 import com.magical.cloud.domain.ScoreTypeEnum;
+import com.magical.jwgl.command.domain.TeachingClassScoreID;
 import org.axonframework.commandhandling.model.AggregateIdentifier;
+import org.axonframework.commandhandling.model.AggregateMember;
 import org.axonframework.spring.stereotype.Aggregate;
 
 import java.util.HashMap;
@@ -19,6 +22,7 @@ public class TeachingClassScore {
 
     @AggregateIdentifier
     private TeachingClassScoreID teachingClassScoreID;
+
     //教学班ID
     private TeachingClassID teachingClassID;
 
@@ -28,7 +32,11 @@ public class TeachingClassScore {
     //考核课程
     private EvaluateCourse evaluateCourse;
 
+    //课程考核标准
+    private CourseEvaluateStandardID courseEvaluateStandardID;
+
     //各分项成绩登记表
+    @AggregateMember
     private HashMap<ScoreTypeEnum,ScoreReportCard> scoreReportCards=new HashMap<ScoreTypeEnum,ScoreReportCard>();
 
 }

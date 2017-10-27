@@ -1,14 +1,21 @@
 package com.magical.jwgl.command.aggergates;
 
+import com.magical.cloud.commands.CreateCourseEvaluateStandardCommand;
 import com.magical.cloud.domain.CheckTypeEnum;
+import com.magical.cloud.domain.CourseEvaluateStandardID;
+import com.magical.cloud.events.CourseEvaluateStandardCreatedEvent;
 import com.magical.jwgl.command.domain.EvaluateCourse;
 import com.magical.cloud.domain.ScoreTypeEnum;
+import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.commandhandling.model.AggregateIdentifier;
+import org.axonframework.eventhandling.EventHandler;
 import org.axonframework.spring.stereotype.Aggregate;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
+
+import static org.axonframework.commandhandling.model.AggregateLifecycle.apply;
 
 /**
  * 课程考核标准
@@ -17,12 +24,12 @@ import java.util.Set;
 @Aggregate
 public class CourseEvaluateStandard {
 
-    //考核课程
     @AggregateIdentifier
-    private EvaluateCourse course;
+    private CourseEvaluateStandardID courseEvaluateStandardID;
+    //考核课程ID
+    private String  courseID;
 
     //版本号（此处对应学期ID）
-    @AggregateIdentifier
     private String version;
 
     //考核方式
@@ -35,5 +42,19 @@ public class CourseEvaluateStandard {
     private HashMap<ScoreTypeEnum,Float> everyMarkWeighting=new HashMap();
 
     public CourseEvaluateStandard() {
+    }
+
+    @CommandHandler
+    public CourseEvaluateStandard(CreateCourseEvaluateStandardCommand command) {
+       apply(new CourseEvaluateStandardCreatedEvent(command.getCourseEvaluateStandardID(),command.getCourseID(),command.getVersion(),command.getCheckType(),command.getEveryMarkWeighting()));
+    }
+
+    @EventHandler
+    public void on(CourseEvaluateStandardCreatedEvent event){
+        this.courseEvaluateStandardID = event.getCourseEvaluateStandardID();
+        this.courseID = event.getCourseID();
+        this.checkType = event.getCheckType();
+        this.everyMarkWeighting = event.getEveryMarkWeighting();
+        this.requireMarkTypes = event.getEveryMarkWeighting().keySet();
     }
 }

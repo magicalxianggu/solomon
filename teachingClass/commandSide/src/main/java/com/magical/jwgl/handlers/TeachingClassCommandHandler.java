@@ -46,31 +46,6 @@ public class TeachingClassCommandHandler {
 
         HashMap<String,String> teachersMap = command.getTeachers();
 
-/*
-        Iterator iter = teachersMap.entrySet().iterator();
-
-        while (iter.hasNext()){
-
-            HashMap.Entry entry = (HashMap.Entry) iter.next();
-
-            String key = (String) entry.getKey();
-
-            String val = (String) entry.getValue();
-
-            //从教员仓库获得教员信息
-            TeacherDTO teacherDTO = this.teacherService.getTeacherDTOByID(key);
-
-            TeacherPositionEnum teacherPosition = null;
-            if(val == TeacherPositionEnum.MAJOR.toString() ){
-                teacherPosition = TeacherPositionEnum.MAJOR;
-            }else {
-                teacherPosition = TeacherPositionEnum.ASSIST;
-            }
-            //封装上课教员信息
-            courseTeachers.add(new CourseTeacher(key,teacherDTO.getTeacherName(),teacherPosition));
-        }
-**/
-
 
         teachersMap.forEach((teacherID,teacherType)->{
 

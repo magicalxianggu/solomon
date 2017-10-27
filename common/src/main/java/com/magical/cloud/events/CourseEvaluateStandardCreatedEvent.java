@@ -1,19 +1,16 @@
-package com.magical.cloud.commands;
+package com.magical.cloud.events;
 
 import com.magical.cloud.domain.CheckTypeEnum;
 import com.magical.cloud.domain.CourseEvaluateStandardID;
 import com.magical.cloud.domain.ScoreTypeEnum;
-import com.magical.cloud.domain.TeachingClassID;
 import org.axonframework.commandhandling.TargetAggregateIdentifier;
 
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
 
 /**
- * Created by zhouxp on 2017/10/26
+ * Created by zhouxp on 2017/10/27
  */
-public class CreateCourseEvaluateStandardCommand {
+public class CourseEvaluateStandardCreatedEvent {
 
     @TargetAggregateIdentifier
     private CourseEvaluateStandardID courseEvaluateStandardID;
@@ -26,12 +23,11 @@ public class CreateCourseEvaluateStandardCommand {
     //考核方式
     private CheckTypeEnum checkType;
 
-
     //各考核成绩权重
     private HashMap<ScoreTypeEnum,Float> everyMarkWeighting=new HashMap();
 
-
-    public CreateCourseEvaluateStandardCommand(String courseID, String version, CheckTypeEnum checkType, HashMap<ScoreTypeEnum, Float> everyMarkWeighting) {
+    public CourseEvaluateStandardCreatedEvent(CourseEvaluateStandardID courseEvaluateStandardID, String courseID, String version, CheckTypeEnum checkType, HashMap<ScoreTypeEnum, Float> everyMarkWeighting) {
+        this.courseEvaluateStandardID = courseEvaluateStandardID;
         this.courseID = courseID;
         this.version = version;
         this.checkType = checkType;

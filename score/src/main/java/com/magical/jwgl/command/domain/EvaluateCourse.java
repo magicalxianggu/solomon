@@ -12,5 +12,22 @@ public class EvaluateCourse {
 
     private String courseNO;
 
+    public EvaluateCourse(String courseID, String courseName, String courseNO) {
+        this.courseID = courseID;
+        this.courseName = courseName;
+        this.courseNO = courseNO;
+    }
+
+    public String getCourseID() {
+        return courseID;
+    }
+
+    public String getCourseName() {
+        return courseName;
+    }
+
+    public String getCourseNO() {
+        return courseNO;
+    }
 }
 
