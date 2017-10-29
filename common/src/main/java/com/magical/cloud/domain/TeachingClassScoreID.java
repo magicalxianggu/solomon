@@ -1,4 +1,4 @@
-package com.magical.jwgl.command.domain;
+package com.magical.cloud.domain;
 
 import org.axonframework.common.IdentifierFactory;
 

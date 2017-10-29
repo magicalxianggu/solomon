@@ -1,6 +1,5 @@
 package com.magical.jwgl.handlers;
 
-
 import com.magical.cloud.commands.CreateTeachingClassCommand;
 import com.magical.cloud.domain.CourseStudent;
 import com.magical.cloud.domain.CourseTeacher;
@@ -13,7 +12,6 @@ import com.magical.jwgl.web.dto.EmployeeDTO;
 import com.magical.jwgl.web.dto.StudentDTO;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.commandhandling.model.Repository;
-import org.axonframework.config.ProcessingGroup;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -22,7 +20,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Component
-@ProcessingGroup(value = "teachingClassCommand")
 public class TeachingClassCommandHandler {
 
     @Autowired
@@ -73,6 +70,7 @@ public class TeachingClassCommandHandler {
 
             //封装上课学员
             courseStudents.add(new CourseStudent(studentDTO.getStudentID(),studentDTO.getStudentName()));
+
         });
 
         repository.newInstance(()->new TeachingClass(command.getTeachingClassID(), teachingCourse, command.getStudingInterval(), courseTeachers, courseStudents));

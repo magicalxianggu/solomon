@@ -2,10 +2,10 @@ package com.magical.jwgl.command.aggergates;
 
 import com.magical.cloud.domain.CourseEvaluateStandardID;
 import com.magical.cloud.domain.TeachingClassID;
-import com.magical.jwgl.command.domain.EvaluateCourse;
+import com.magical.cloud.domain.EvaluateCourse;
 import com.magical.jwgl.command.domain.ScoreReportCard;
 import com.magical.cloud.domain.ScoreTypeEnum;
-import com.magical.jwgl.command.domain.TeachingClassScoreID;
+import com.magical.cloud.domain.TeachingClassScoreID;
 import org.axonframework.commandhandling.model.AggregateIdentifier;
 import org.axonframework.commandhandling.model.AggregateMember;
 import org.axonframework.spring.stereotype.Aggregate;

@@ -4,7 +4,6 @@ import com.magical.cloud.commands.CreateCourseEvaluateStandardCommand;
 import com.magical.cloud.domain.CheckTypeEnum;
 import com.magical.cloud.domain.CourseEvaluateStandardID;
 import com.magical.cloud.events.CourseEvaluateStandardCreatedEvent;
-import com.magical.jwgl.command.domain.EvaluateCourse;
 import com.magical.cloud.domain.ScoreTypeEnum;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.commandhandling.model.AggregateIdentifier;

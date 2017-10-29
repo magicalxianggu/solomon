@@ -1,4 +1,4 @@
-package com.magical.jwgl.command.domain;
+package com.magical.cloud.domain;
 
 /**
  * 考核课程
