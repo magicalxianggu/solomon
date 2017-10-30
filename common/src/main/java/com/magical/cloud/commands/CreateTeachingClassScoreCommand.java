@@ -39,4 +39,8 @@ public class CreateTeachingClassScoreCommand {
     public String getCourseID() {
         return courseID;
     }
+
+    public CourseEvaluateStandardID getCourseEvaluateStandardID() {
+        return courseEvaluateStandardID;
+    }
 }
