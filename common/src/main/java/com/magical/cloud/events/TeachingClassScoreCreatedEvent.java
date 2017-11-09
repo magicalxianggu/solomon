@@ -3,11 +3,11 @@ package com.magical.cloud.events;
 import com.magical.cloud.domain.CourseEvaluateStandardID;
 import com.magical.cloud.domain.EvaluateCourse;
 import com.magical.cloud.domain.TeachingClassID;
-import com.magical.cloud.domain.TeachingClassScoreID;
+import com.magical.cloud.domain.TeachingClassScoreRecordID;
 
 public class TeachingClassScoreCreatedEvent {
 
-    private TeachingClassScoreID teachingClassScoreID;
+    private TeachingClassScoreRecordID teachingClassScoreID;
 
     private TeachingClassID teachingClassID;
 
@@ -19,7 +19,7 @@ public class TeachingClassScoreCreatedEvent {
     //课程考核标准
     private CourseEvaluateStandardID courseEvaluateStandardID;
 
-    public TeachingClassScoreCreatedEvent(TeachingClassScoreID teachingClassScoreID, TeachingClassID teachingClassID, String termID, EvaluateCourse evaluateCourse, CourseEvaluateStandardID courseEvaluateStandardID) {
+    public TeachingClassScoreCreatedEvent(TeachingClassScoreRecordID teachingClassScoreID, TeachingClassID teachingClassID, String termID, EvaluateCourse evaluateCourse, CourseEvaluateStandardID courseEvaluateStandardID) {
         this.teachingClassScoreID = teachingClassScoreID;
         this.teachingClassID = teachingClassID;
         this.termID = termID;
@@ -27,7 +27,7 @@ public class TeachingClassScoreCreatedEvent {
         this.courseEvaluateStandardID = courseEvaluateStandardID;
     }
 
-    public TeachingClassScoreID getTeachingClassScoreID() {
+    public TeachingClassScoreRecordID getTeachingClassScoreID() {
         return teachingClassScoreID;
     }
 

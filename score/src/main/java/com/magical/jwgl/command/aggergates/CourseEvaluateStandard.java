@@ -40,6 +40,8 @@ public class CourseEvaluateStandard {
     //各考核成绩权重
     private HashMap<ScoreTypeEnum,Float> everyMarkWeighting=new HashMap();
 
+    //各考核成绩使用分制
+
     public CourseEvaluateStandard() {
     }
 

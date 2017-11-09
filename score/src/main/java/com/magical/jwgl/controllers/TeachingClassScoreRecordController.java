@@ -3,7 +3,7 @@ package com.magical.jwgl.controllers;
 import com.alibaba.fastjson.JSONObject;
 import com.magical.cloud.commands.CreateTeachingClassScoreCommand;
 import com.magical.cloud.domain.TeachingClassID;
-import com.magical.cloud.domain.TeachingClassScoreID;
+import com.magical.cloud.domain.TeachingClassScoreRecordID;
 import org.axonframework.commandhandling.CommandExecutionException;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.slf4j.Logger;
@@ -20,9 +20,9 @@ import static org.slf4j.LoggerFactory.getLogger;
  * Created by zhouxp on 2017/10/27
  */
 @RestController
-public class TeachingClassScoreController {
+public class TeachingClassScoreRecordController {
 
-    private static final Logger LOGGER = getLogger(TeachingClassScoreController.class);
+    private static final Logger LOGGER = getLogger(TeachingClassScoreRecordController.class);
 
     @Autowired
     private CommandGateway commandGateway;
@@ -30,6 +30,10 @@ public class TeachingClassScoreController {
     @Autowired
     private HttpServletResponse response;
 
+    /**
+     * 创建成绩登记卡
+     * @param input
+     */
     @RequestMapping(value = "score/addScore")
     public void createTeachingClassScore(@RequestBody()JSONObject input){
         LOGGER.info(input.toJSONString());
@@ -37,7 +41,7 @@ public class TeachingClassScoreController {
         try {
             if (input.containsKey("teachingClassID")&& input.containsKey("standardID")){
 
-                TeachingClassScoreID teachingClassScoreID = new TeachingClassScoreID();
+                TeachingClassScoreRecordID teachingClassScoreID = new TeachingClassScoreRecordID();
 
                 TeachingClassID teachingClassID = new TeachingClassID(input.getString("teachingClassID"));
 

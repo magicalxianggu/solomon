@@ -1,8 +1,8 @@
 package com.magical.jwgl.command.domain;
 
-        import com.magical.cloud.domain.StudentID;
+import com.magical.cloud.domain.StudentID;
 
-        import java.util.HashMap;
+import java.util.HashMap;
 
 /**
  * 成绩登记卡

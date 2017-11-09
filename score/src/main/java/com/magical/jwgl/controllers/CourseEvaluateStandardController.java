@@ -3,7 +3,6 @@ package com.magical.jwgl.controllers;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.magical.cloud.commands.CreateCourseEvaluateStandardCommand;
-import com.magical.cloud.commands.CreateStudentCommand;
 import com.magical.cloud.domain.CheckTypeEnum;
 import com.magical.cloud.domain.ScoreTypeEnum;
 import org.axonframework.commandhandling.CommandExecutionException;
@@ -15,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletResponse;
-
 import java.util.HashMap;
 
 import static org.slf4j.LoggerFactory.getLogger;
@@ -34,6 +32,9 @@ public class CourseEvaluateStandardController {
     @Autowired
     private HttpServletResponse response;
 
+    /**
+     * 添加课程考核标准
+     */
     @PostMapping(value = "/score/courseStandard/addStandard")
     public void createCourseEvaluateStandard(@RequestBody() JSONObject input){
         LOGGER.info(input.toJSONString());
@@ -68,6 +69,9 @@ public class CourseEvaluateStandardController {
             LOGGER.warn("Add Command FAILED with Message: {}", cex.getMessage());
             response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
         }
-
     }
+
+    /**
+     * 修改课程考核标准
+     */
 }
