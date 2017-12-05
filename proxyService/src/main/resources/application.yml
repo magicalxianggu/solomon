@@ -4,8 +4,11 @@ spring:
 
   cloud:
     config:
+       #是从配置中心读取文件
       discovery.enabled: true
+      #配置中心服务id,即服务名
       discovery.serviceId: configService
+      #配置客户端快速失败
       failFast: false
 
 # Discovery Server Access
