@@ -3,7 +3,6 @@ package com.magical.jwgl.controllers;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.magical.cloud.commands.CreateTeachingClassCommand;
-import com.magical.jwgl.web.clients.StudentService;
 import com.magical.jwgl.web.clients.clientProxys.StudentProxy;
 import com.magical.jwgl.web.dto.StudentDTO;
 import org.axonframework.commandhandling.CommandExecutionException;
