@@ -12,9 +12,6 @@
 .classpath
 .settings
 .idea
-.idea/*
+.idea\*
 *.iml
-
-
 */target/*
-.idea/*
