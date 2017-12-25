@@ -4,7 +4,8 @@ server:
 spring:
   # Active reading config from local file system
   profiles:
-    active: native
+    #active: native
+    active: git
   ### 配置服务器应用名称
   application:
     name: configService
@@ -12,15 +13,15 @@ spring:
   cloud:
     config:
       server:
-        native:
+        #native:
          #${user.dir}，在 IDE 中是指的当前项目物理路径，${user.dir} 减少平台文件系统的不一致
-          searchLocations: ${user.dir}/configs
+          #searchLocations: ${user.dir}/configs
           #searchLocations: /usr/edi/spring/configs
-   #     git:
-          # uri: https://github.com/sunnykaka/mysteam-config-repo
+          git:
+            uri: https://github.com/magicalXiangGu/solomon
    #       uri: file:///D:/Repository/github/spring-cloud-poc/config-server/configs
     #      basedir: target/config
-   #       searchPaths: "*"
+           searchPaths: configs
 #Eureka的状态页和健康指示器默认分别为“/info”和“/health”，是Spring boot actuator默认的配置 ,修改管理端路径
 management:
   context-path: /admin
