@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/teachingClass/commandSide/commandSide.iml" filepath="$PROJECT_DIR$/teachingClass/commandSide/commandSide.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/configService/config-service.iml" filepath="$PROJECT_DIR$/configService/config-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configService/configService.iml" filepath="$PROJECT_DIR$/configService/configService.iml" />
       <module fileurl="file://$PROJECT_DIR$/discoveryService/discovery-service.iml" filepath="$PROJECT_DIR$/discoveryService/discovery-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discoveryService/discoveryService.iml" filepath="$PROJECT_DIR$/discoveryService/discoveryService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/employee/employee.iml" filepath="$PROJECT_DIR$/employee/employee.iml" />
       <module fileurl="file://$PROJECT_DIR$/employee/employee-service.iml" filepath="$PROJECT_DIR$/employee/employee-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/proxyService/gateway-service.iml" filepath="$PROJECT_DIR$/proxyService/gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxyService/proxyService.iml" filepath="$PROJECT_DIR$/proxyService/proxyService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teachingClass/querySide/querySide.iml" filepath="$PROJECT_DIR$/teachingClass/querySide/querySide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/score/score.iml" filepath="$PROJECT_DIR$/score/score.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scoreCenter/scoreCenter.iml" filepath="$PROJECT_DIR$/scoreCenter/scoreCenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/scoreCenter/scoreCenterService.iml" filepath="$PROJECT_DIR$/scoreCenter/scoreCenterService.iml" />
       <module fileurl="file://$PROJECT_DIR$/score/scoreService.iml" filepath="$PROJECT_DIR$/score/scoreService.iml" />
       <module fileurl="file://$PROJECT_DIR$/solomon.iml" filepath="$PROJECT_DIR$/solomon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/student/student.iml" filepath="$PROJECT_DIR$/student/student.iml" />
       <module fileurl="file://$PROJECT_DIR$/student/studentService.iml" filepath="$PROJECT_DIR$/student/studentService.iml" />
       <module fileurl="file://$PROJECT_DIR$/teachingClass/teachingClassService.iml" filepath="$PROJECT_DIR$/teachingClass/teachingClassService.iml" />
       <module fileurl="file://$PROJECT_DIR$/teachingClass/commandSide/teachingclass-command-side.iml" filepath="$PROJECT_DIR$/teachingClass/commandSide/teachingclass-command-side.iml" />

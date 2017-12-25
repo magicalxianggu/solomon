@@ -4,8 +4,8 @@ spring:
 
   cloud:
     config:
-      discovery.enabled: true
-      discovery.serviceId: configService
+      discovery.enabled: true #从配置中心得configService读取配置
+      discovery.serviceId: configService #培中心服务ID
       failFast: false
   datasource:
       url: jdbc:mysql://127.0.0.1:3306/db_magical

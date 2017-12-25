@@ -1,20 +1,27 @@
-# Configure this Discovery Server
-eureka:
-  instance:
-    hostname: localhost
-    lease-expiration-duration-in-seconds: 5
-    lease-renewal-interval-in-seconds: 5
-  client: #Not a client, don't register with yourself
-    healthcheck:
-      enabled: true
-    register-with-eureka: false
-    fetch-registry: false
-  server:
-      enable-self-preservation: false
-
-endpoints:
- shutdown:
-  enabled: true
-
 server:
   port: 1111 #HTTP(Tomcat) port
+# Configure this Discovery Server
+eureka:
+  instance: #指定eureka实例主机名
+    hostname: localhost
+    #表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间，在这个时间内若没收到下一次心跳，则将移除该instance。默认90
+    lease-expiration-duration-in-seconds: 10
+    #表示eureka client发送心跳给server端的频率。如果在leaseExpirationDurationInSeconds后，server端没有收到client的心跳，则将摘除该instance
+    lease-renewal-interval-in-seconds: 5
+  server:
+        #是否开启自我保护模式，默认为true
+      enable-self-preservation: false
+      eviction-interval-timer-in-ms: 5000       # 续期时间，即扫描失效服务的间隔时间（缺省为60*1000ms）
+  client: #Not a client, don't register with yourself
+    healthcheck:
+      enabled: true    # 开启健康检查（依赖spring-boot-starter-actuator）
+    register-with-eureka: false #表示是否将自己注册到Eureka Server，默认为true。
+    fetch-registry: false  #表示是否从Eureka Server获取注册信息，默认为true。因为这是一个单点的Eureka Server，不需要同步其他的Eureka Server节点的数据，故而设为false。
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
+
+  #Spring Boot Actuator的shutdown endpoint默认是关闭的,此处开启
+endpoints:
+  shutdown:
+    enabled: true
+

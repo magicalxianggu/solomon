@@ -1,0 +1,46 @@
+{
+	"decors": {
+		"decorid-0": {
+			"decorNO": "decor001",
+			"title": ["通知公告","新闻"],
+			"moreText": "show"
+		},
+		"decorid-1": {
+			"decorNO": "decor002",
+			"title-color": "red",
+			"more-show": true,
+			"more-link": "show",
+			"title": "新闻",
+			"title-size": "12"
+		}
+	},
+	
+	"modules": {
+		"moduleid-0": {
+			"moduleNO": "module001",
+			"channelID": "web01tzgg",
+			"totalNum": "10",
+			"dateType": "1" 
+		},
+		
+		"moduleid-1": {
+			"moduleNO": "module002"
+			
+		},
+		
+		"moduleid-2": {
+			"moduleNO": "module003"
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,7 +1,7 @@
 package com.magical.jwgl.web.clients.clientProxys;
 
 import com.alibaba.fastjson.JSONObject;
-import com.magical.jwgl.web.clients.StudentClient;
+import com.magical.jwgl.web.clients.StudentService;
 import com.magical.jwgl.web.dto.StudentDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -13,11 +13,11 @@ import org.springframework.stereotype.Component;
 public class StudentProxy {
 
     @Autowired
-    private StudentClient studentClient;
+    private StudentService studentService;
 
     public StudentDTO getStudentDTOByID(String studentID){
 
-        JSONObject studentJson = this.studentClient.getStudentDTOByID(studentID);
+        JSONObject studentJson = this.studentService.getStudentDTOByID(studentID);
 
 
         return JSONObject.toJavaObject(studentJson,StudentDTO.class);

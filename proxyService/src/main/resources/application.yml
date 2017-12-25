@@ -4,6 +4,8 @@ spring:
 
   cloud:
     config:
+      profile: dev
+      label: master
        #是从配置中心读取文件
       discovery.enabled: true
       #配置中心服务id,即服务名
@@ -20,11 +22,11 @@ eureka:
 zuul:
   ignoredServices: '*'
   routes:
-    teachingClass_command_path:
+    user: teachingClass_command_path
       path: /command/**
       stripPrefix: false
       serviceId: teachingClass-commandService
-    teachingClass_query_path:
+    uesr: teachingClass_query_path
       serviceId: teachingClass-queryService
       path: /query/**
       stripPrefix: false
