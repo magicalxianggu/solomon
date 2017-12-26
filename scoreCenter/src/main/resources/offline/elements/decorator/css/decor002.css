@@ -1,0 +1,12 @@
+/* decor002 */
+.decor-wrap.decor002 {
+  border-color: #ddd;
+}
+.decor002 .decor-header {
+  border-bottom-color: #cc0000;
+  border-bottom-width: 2px;
+  background-color: #f0f0f0;
+}
+.decor002 .decor-title {
+  color: #cc0000;
+}

@@ -1,0 +1,23 @@
+/* decor001 */
+.decor-wrap.decor001 {
+  background-color: #fff;
+  border-color: #ddd;
+}
+.decor001 .decor-header {
+  padding: 0;
+  border-bottom-color: #eee;
+  background-color: #f7f7f7;
+}
+.decor001 .decor-title {
+  padding: 10px 15px;
+  width: 100px;
+  color: #fff;
+  text-align: center;
+  background-color: #215e21;
+}
+.decor001 .decor-body {
+  padding: 15px;
+}
+.decor001 .decor-footer {
+  display: none;
+}

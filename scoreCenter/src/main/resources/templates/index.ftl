@@ -17,11 +17,5 @@
 		</gds:decor>
 			
 	</div>
-    <div>
-	<#assign item = data[listName]>
-
-	<#list item as row>
-	</#list>
-    </div>
 </div>
 </div>
