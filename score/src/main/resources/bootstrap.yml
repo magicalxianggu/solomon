@@ -1,11 +1,11 @@
 spring:
   application:
-    name: teachingClass-commandService
+    name: score-service
 
   cloud:
     config:
-      discovery.enabled: true
-      discovery.serviceId: configService
+      discovery.enabled: true #从配置中心得configService读取配置
+      discovery.serviceId: configService #培中心服务ID
       failFast: false
   datasource:
       url: jdbc:mysql://127.0.0.1:3306/db_magical
@@ -17,7 +17,9 @@ spring:
       sql-script-encoding: UTF-8
   jpa:
     show-sql: true
-    hibernate.ddl-auto: update
+    hibernate:
+      ddl-auto: update
+    format-sql: true
   # mq for event bus
   rabbitmq:
     host: 127.0.0.1
@@ -30,6 +32,14 @@ spring:
       port: 27017
       database: axon
 
+  thymeleaf:
+     cache: false
+     prefix: classpath:/templates/
+     suffix: .html
+     mode: HTML5
+     encoding: UTF-8
+     content-type: text/html
+
 # Discovery Server Access
 eureka:
   client:
@@ -40,7 +50,7 @@ eureka:
     prefer-ip-address: true
 
 server:
-  port: 8660 #HTTP(Tomcat) port
+  port: 8035 #HTTP(Tomcat) port
 
 # enable Spring Cloud support of Axon
 axon:
@@ -48,8 +58,3 @@ axon:
     enabled: true
   amqp:
     exchange: amq.fanout
-  eventhandling:
-     processors:
-       teachingClassCommand:
-          mode: tracking
-          source: queueMessageSource

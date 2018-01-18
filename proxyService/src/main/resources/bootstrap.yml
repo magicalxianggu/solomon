@@ -1,3 +1,6 @@
+server:
+  port: 8033
+
 spring:
   application:
     name: proxyService
@@ -22,11 +25,11 @@ eureka:
 zuul:
   ignoredServices: '*'
   routes:
-    user: teachingClass_command_path
-      path: /command/**
-      stripPrefix: false
-      serviceId: teachingClass-commandService
-    uesr: teachingClass_query_path
-      serviceId: teachingClass-queryService
-      path: /query/**
-      stripPrefix: false
+    teachingClass_command_path:
+       path: /command/**
+       stripPrefix: false
+       serviceId: teachingClass-commandService
+    teachingClass_query_path:
+       serviceId: teachingClass-queryService
+       path: /query/**
+       stripPrefix: false

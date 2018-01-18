@@ -12,6 +12,15 @@
 			"more-link": "show",
 			"title": "新闻",
 			"title-size": "12"
+		},
+
+		"decorid-2": {
+			"decorNO": "decor003",
+			"title-color": "red",
+			"more-show": true,
+			"more-link": "show",
+			"title": "新闻",
+			"title-size": "12"
 		}
 	},
 	

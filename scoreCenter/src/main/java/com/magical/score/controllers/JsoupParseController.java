@@ -48,6 +48,8 @@ public class JsoupParseController {
         return templateString;
     }
 
+
+
     private void writerFileToFtl(String path, String templateString) throws IOException {
         File file = new File(path+"/web/index.ftl");
 
