@@ -20,31 +20,27 @@
 
         <!-- 标签页排版-->
         <div id="{tabsID}" class="tabs-wrap {tabsNO}">
-            <ul class="tab-list">
-                <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#profile">Profile</a></li>
-                <li><a href="#messages">Messages</a></li>
-                <li><a href="#settings">Settings</a></li>
-            </ul>
+            <div class="tab-header">
+                <h3 class="tab-title">     </h3>
+                <ul class="tab-list">
+                    <li class="active"><a href="#{tabsID}-001">第一个标签</a></li>
+                    <li><a href="#{tabsID}-002">第二个标签</a></li>
+                </ul>
+            </div>
             <div class="tab-content">
-                <div class="tab-pane active" id="home">
-						<gds:module moduleID="moduleid-1" />
-				</div>
-                <div class="tab-pane" id="profile">
+                <div class="tab-pane active" id="{tabsID}-001">
+
+                    <gds:module moduleID="moduleid-1" />
+                </div>
+                <div class="tab-pane" id="{tabsID}-002">
                     <gds:decor decorID="decorid-1" >
                         <gds:module moduleID="moduleid-1" />
                     </gds:decor>
-				</div>
-                <div class="tab-pane" id="messages">
-                        <gds:module moduleID="moduleid-1" />
-				</div>
-                <div class="tab-pane" id="settings">
-                    <gds:decor decorID="decorid-1">
-                        <gds:module moduleID="moduleid-1" />
-                    </gds:decor>
-				</div>
+
+                </div>
             </div>
         </div>
+
     </div>
 </div>
 </div>
