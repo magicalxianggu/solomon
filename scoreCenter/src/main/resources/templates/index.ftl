@@ -11,9 +11,9 @@
 		
 	<div class="views paddings noCont" id="module2">
 			
-		<gds:decor decorID="decorid-1" >
-			<gds:module moduleID="moduleid-1" />
-		</gds:decor>
+		<gds:publicPage ID="publicPage001"  publicPageID="157413548545487785bchusgc">
+
+		</gds:publicPage>
 			
 	</div>
     <div class="views paddings noCont" id="module3">

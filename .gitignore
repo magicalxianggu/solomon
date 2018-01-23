@@ -16,3 +16,5 @@
 *.iml
 */target/*
 target/*
+teachingClass/commandSide/target/classes/bootstrap.yml
+teachingClass/querySide/target/classes/bootstrap.yml
