@@ -22,9 +22,11 @@ public class TemplateController {
     @RequestMapping("/homeHtml")
     public String helloHtml(Model model){
 
-        Map home = new HashMap();
-        home.put("welcome","hello ni hao!!!");
-        model.addAttribute("home","8945648945648545848");
+        Map tableData = new HashMap();
+        tableData.put("date","2017-11-16");
+        tableData.put("name","lixiaoran");
+        tableData.put("address","beijing momo junqu");
+        model.addAttribute("tableData",tableData);
 //        ModelAndView mv = new ModelAndView("home");
         return "home";
     }

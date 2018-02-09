@@ -1,28 +1,24 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
-
+<html>
 <head>
-    <head>
-        <meta charset="UTF-8">
-        <!-- 引入样式-->
-        <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <meta charset="UTF-8">
+    <!-- 引入样式-->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
 
 
-        <style>
-            .el-header {
-                background-color: #B3C0D1;
-                color: #333;
-                line-height: 60px;
-            }
+    <style>
+        .el-header {
+            background-color: #B3C0D1;
+            color: #333;
+            line-height: 60px;
+        }
 
-            .el-aside {
-                color: #333;
-            }
-        </style>
-    </head>
+        .el-aside {
+            color: #333;
+        }
+    </style>
 </head>
-
-<body>
+<body >
 <div id="app">
     <el-container style="height: 500px; border: 1px solid #eee">
         <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
@@ -102,11 +98,11 @@
     </el-container>
 </div>
 </body>
-
 <!-- 先引入 Vue -->
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
 <!-- 引入组件库 -->
 <script src="https://unpkg.com/element-ui"></script>
+
 
 
 <script>
@@ -118,11 +114,7 @@
                 address: '上海市普陀区金沙江路 1518 弄'
             };
             return {
-
-
-                //tableData: [[${tableData}]]
-                //tableData: Array(20).fill(item)
-                //tableData: ${tableData}
+                tableData: Array(20).fill(item)
             }
         }
     };
@@ -133,24 +125,7 @@
 <script>
 
     new Vue({
-        el:"#app",
-        data:{
-            tableData: [[${tableData}]]
-        },
-        mounted : function(){
-
-
-            var temp3 = [[${tableData}]]; //传递参数@ModelAttribute
-            alert("-----传递参数@ModelAttribute-----:"+temp3);
-        },
-        methods : {
-            query: function(){
-
-            },
-            report: function(){
-
-            }
-        }
+        el:"#app"
     })
 
 </script>
